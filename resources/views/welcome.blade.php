@@ -293,19 +293,11 @@
             <div class="right-section">
                 <div class="image-box">
                     <img src="{{ asset('images/img-event.png') }}" alt="img-event">
-<<<<<<< HEAD
                     <div class="arrow-buttons">
                         <p class="left-arrow">
                             <img src="{{ asset('images/panah-kiri.png') }}" alt="arrow-kiri">
                         </p>
                         <p class="right-arrow"><img src="{{ asset('images/panah-kanan.png') }}" alt="arrow-right"
-=======
-                    <div class="arrow">
-                        <p class="arrow-left">
-                            <img src="{{ asset('images/arrow-left.png') }}" alt="arrow-left">
-                        </p>
-                        <p class="arrow-right"><img src="{{ asset('images/arrow-right.png') }}" alt="arrow-right"
->>>>>>> 895eeba868910fd22542eb40ef599558fe2d3edf
                                 width="27px"></p>
                     </div>
                 </div>
@@ -361,18 +353,10 @@
             <p>Personal Sponsorship Package</p>
         </div>
         <br>
-<<<<<<< HEAD
         <div class="sponsorship-table-container-1">
             <table class="sponsorship-table-1">
                 <tr>
                     <th class="membership-tier">Membership Tier</th>
-=======
-        <div class="table1">
-            <table class="table-sponsor">
-
-                <tr>
-                    <th class="membership">Membership Tier</th>
->>>>>>> 895eeba868910fd22542eb40ef599558fe2d3edf
                     <th>Min. Seeds</th>
                     <th>Min. Buy</th>
                     <th>Benefits</th>
@@ -389,24 +373,7 @@
                     <td>Badge</td>
                     <td>4,900 Donors</td>
                     <td>
-<<<<<<< HEAD
                         <button class="action-btn">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
-=======
-                        5 Seeds
-                    </td>
-                    <td>
-                        IDR 75K
-                    </td>
-                    <td>
-                        Badge
-                    </td>
-                    <td>
-                        4,900 Donors
-                    </td>
-                    <td>
-                        <button class="btn-action">Support Our Mission <img
-                                src="{{ asset('images/arrow-right.png') }}" alt=""></button>
->>>>>>> 895eeba868910fd22542eb40ef599558fe2d3edf
                     </td>
                 </tr>
                 <tr>
@@ -419,24 +386,7 @@
                     <td>Badge + Pin</td>
                     <td>4,300 Donors</td>
                     <td>
-<<<<<<< HEAD
                         <button class="action-btn">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
-=======
-                        10 Seeds
-                    </td>
-                    <td>
-                        IDR 150K
-                    </td>
-                    <td>
-                        Badge + Pin
-                    </td>
-                    <td>
-                        4,300 Donors
-                    </td>
-                    <td>
-                        <button class="btn-action">Support Our Mission <img
-                                src="{{ asset('images/arrow-right.png') }}" alt=""></button>
->>>>>>> 895eeba868910fd22542eb40ef599558fe2d3edf
                     </td>
                 </tr>
                 <tr>
@@ -449,24 +399,7 @@
                     <td>Badge + Pin</td>
                     <td>15,000 Donors</td>
                     <td>
-<<<<<<< HEAD
                         <button class="action-btn">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
-=======
-                        20 Seeds
-                    </td>
-                    <td>
-                        IDR 300K
-                    </td>
-                    <td>
-                        Badge + Pin
-                    </td>
-                    <td>
-                        15,000 Donors
-                    </td>
-                    <td>
-                        <button class="btn-action">Support Our Mission <img
-                                src="{{ asset('images/arrow-right.png') }}" alt=""></button>
->>>>>>> 895eeba868910fd22542eb40ef599558fe2d3edf
                     </td>
                 </tr>
                 <tr>
@@ -479,24 +412,7 @@
                     <td>Badge + Pin + Bag</td>
                     <td>5,000 Donors</td>
                     <td>
-<<<<<<< HEAD
                         <button class="action-btn">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
-=======
-                        50 Seeds
-                    </td>
-                    <td>
-                        IDR 750K
-                    </td>
-                    <td>
-                        Badge + Pin + Bag
-                    </td>
-                    <td>
-                        5,000 Donors
-                    </td>
-                    <td>
-                        <button class="btn-action">Support Our Mission <img
-                                src="{{ asset('images/arrow-right.png') }}" alt=""></button>
->>>>>>> 895eeba868910fd22542eb40ef599558fe2d3edf
                     </td>
                 </tr>
                 <tr>
@@ -509,7 +425,6 @@
                     <td>Badge + Pin + Bag</td>
                     <td>300 Donors</td>
                     <td>
-<<<<<<< HEAD
                         <button class="action-btn">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
                     </td>
                 </tr>
@@ -635,220 +550,6 @@
     </div>
     
     
-=======
-                        100 Seeds
-                    </td>
-                    <td>
-                        IDR 1,500K
-                    </td>
-                    <td>
-                        Badge + Pin + Bag
-                    </td>
-                    <td>
-                        300 Donors
-                    </td>
-                    <td>
-                        <button class="btn-action">Support Our Mission <img
-                                src="{{ asset('images/arrow-right.png') }}" alt=""></button>
-                    </td>
-                </tr>
-                <div>
-                    <tr>
-                        <td class="column-table">
-                            <img src="{{ asset('images/logo8.png') }}" alt="icon" width="27px">
-                            <p class="member">Mangrove Maven</p>
-                        </td>
-                        <td>
-                            200 Seeds
-                        </td>
-                        <td>
-                            IDR 3,000K
-                        </td>
-                        <td>
-                            Badge + Pin + Bag
-                        </td>
-                        <td>
-                            10 Donors
-                        </td>
-                        <td>
-                            <button class="btn-action">Support Our Mission <img
-                                    src="{{ asset('images/arrow-right.png') }}" alt=""></button>
-                        </td>
-                    </tr>
-                </div>
-        </div>
-        </table>
-    </div>
-    <br>
-    <br>
-    <div class="garis"></div>
-    <br>
-    <br>
-
-    <div class="corporate">
-        <div class="corporate-sponsorship">
-            <p>Corporate Sponsorship Package</p>
-        </div>
-    </div>
-    <br>
-    <div class="table2">
-        <table class="table-sponsor2">
-            <tr>
-                <th>Benefits</th>
-                <th>Eco Trailblazers</th>
-                <th>Green Innovators</th>
-                <th>Eco Vanguard</th>
-            </tr>
-            <tr>
-                <td class="column-table">
-                    <p class="benefits">Price</p>
-                </td>
-                <td>
-                    15 Million IDR
-                </td>
-                <td>
-                    30 Million IDR
-                </td>
-                <td>
-                    45 Million IDR
-                </td>
-            </tr>
-            <tr>
-                <td class="column-table">
-                    <p class="benefits">CO2 Sequestration</p>
-                </td>
-                <td>
-                    22,5 ton/year
-                </td>
-                <td>
-                    45 ton/year
-                </td>
-                <td>
-                    67,5 ton/year
-                </td>
-            </tr>
-            <tr>
-                <td class="column-table">
-                    <p class="benefits">Number of Tress</p>
-                </td>
-                <td>
-                    1000 Trees
-                </td>
-                <td>
-                    2000 Trees
-                </td>
-                <td>
-                    3000 Trees
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="benefits">Logo on JCI Banner</p>
-                </td>
-                <td>
-                    <img src="{{ asset('images/circle.png') }}" alt="centang">
-                </td>
-                <td>
-                    <div class="circle">
-                        <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </div>
-                </td>
-                <td>
-                    <img src="{{ asset('images/circle.png') }}" alt="centang">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="benefits">Logo on Communal Stainless Plate</p>
-                </td>
-                <td>
-                    <img src="{{ asset('images/circle.png') }}" alt="centang">
-                </td>
-                <td>
-                    <div class="circle">
-                        <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </div>
-                </td>
-                <td>
-                    <img src="{{ asset('images/circle.png') }}" alt="centang">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="benefits">Considered as Main Sponsor</p>
-                </td>
-                <td>
-                    <img src="{{ asset('images/circle.png') }}" alt="centang">
-                </td>
-                <td>
-                    <div class="circle">
-                        <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </div>
-                </td>
-                <td>
-                    <img src="{{ asset('images/circle.png') }}" alt="centang">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="benefits">Dedicated Stainless Plate</p>
-                </td>
-                <td></td>
-                <td>
-                    <div class="circle">
-                        <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </div>
-                </td>
-                <td>
-                    <img src="{{ asset('images/circle.png') }}" alt="centang">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="benefits">Report Update on Planted Trees</p>
-                </td>
-                <td></td>
-                <td>
-                    <div class="circle">
-                        <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </div>
-                </td>
-                <td>
-                    <img src="{{ asset('images/circle.png') }}" alt="centang">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="benefits">Logo on Event Clothings</p>
-                </td>
-                <td>
-                </td>
-                <td></td>
-                <td>
-                    <img src="{{ asset('images/circle.png') }}" alt="centang">
-                </td>
-            </tr>
-            <tr class="donation">
-                <td>
-                    <p class="benefits">Make a Donation</p>
-                </td>
-                <td>
-                    <button class="btn-support">Support Our Mission <img src="{{ asset('images/arrow-blue.png') }}"
-                            alt="arrow"></button>
-                </td>
-                <td><button class="btn-support">Support Our Mission <img src="{{ asset('images/arrow-blue.png') }}"
-                            alt="arrow"></button></td>
-                <td>
-                    <button class="btn-support">Support Our Mission <img src="{{ asset('images/arrow-blue.png') }}"
-                            alt="arrow"></button>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <br>
-    <br>
-    <br>
->>>>>>> 895eeba868910fd22542eb40ef599558fe2d3edf
     <!--sponsors end-->
 
     <!--support start-->
@@ -862,7 +563,6 @@
                 by donating to our mangrove planting project. </p>
         </div>
         <br>
-<<<<<<< HEAD
         <button class="donate-btn">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
         <div class="donation-images">
             <img src="{{ asset('images/support1.png') }}" alt="sup-img" width="240px" height="425px" class="image1">
@@ -870,16 +570,6 @@
             <img src="{{ asset('images/support3.png') }}" alt="sup-img" width="240px" height="161px" class="image3">
             <img src="{{ asset('images/support4.png') }}" alt="sup-img" width="240px" height="281px" class="image4">
             <img src="{{ asset('images/support5.png') }}" alt="sup-img" width="240px" height="425px" class="image5">
-=======
-        <button class="support-btn">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}"
-                alt=""></button>
-        <div class="image-support">
-            <img src="{{ asset('images/sup1.png') }}" alt="sup-img" width="240px" height="425px" class="img1">
-            <img src="{{ asset('images/sup2.png') }}" alt="sup-img" width="240px" height="281px" class="img2">
-            <img src="{{ asset('images/sup3.png') }}" alt="sup-img" width="240px" height="161px" class="img3">
-            <img src="{{ asset('images/sup4.png') }}" alt="sup-img" width="240px" height="281px" class="img4">
-            <img src="{{ asset('images/sup5.png') }}" alt="sup-img" width="240px" height="425px" class="img5">
->>>>>>> 895eeba868910fd22542eb40ef599558fe2d3edf
         </div>
     </div>
     <br>
