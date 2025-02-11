@@ -1,0 +1,62 @@
+.green-haven-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .logos-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading-title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .description-section {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        .description-text {
+            font-size: 18px;
+            color: #000000;
+            width: 880px;
+            text-align: center;
+            line-height: 27px;
+            font-weight: 300;
+        }
+    }
+
+    .comparison-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        position: relative;
+
+        .image-text {
+            text-align: center;
+            font-weight: 600;
+            font-size: 22px;
+        }
+
+        .change-indicator {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 30px;
+            padding: 0 2rem 1rem;
+            top: 23%;
+
+            .change-text {
+                margin-top: -1rem;
+                color: #2D9444;
+            }
+        }
+    }
+}

@@ -1,0 +1,213 @@
+#header-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+    .left-column-section,
+    .right-column-section {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .left-column-section {
+        margin: 50px 0px 50px 70px;
+
+        .project-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .green-haven-btn {
+            border: 1px solid #DDDDDD;
+            padding: 10px 23px;
+            border-radius: 30px;
+            font-weight: 400;
+            font-size: 16px;
+            width: 50%;
+        }
+
+        .main-heading {
+            margin-top: 16px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            width: 650px;
+            letter-spacing: -0.4px;
+        }
+
+        .card-container {
+            border: 1px solid #EEEEEE;
+            width: 589px;
+            height: 137px;
+            padding: 2rem;
+            border-radius: 20px;
+            margin-top: 2.33rem;
+            margin-bottom: 3.15rem;
+
+            .info-card {
+                display: flex;
+                justify-content: left;
+                flex-direction: row;
+                font-weight: 700;
+                align-items: center;
+                margin-top: -4px;
+                color: #336913;
+
+                .current-count {
+                    font-family: "Inter Tight", serif;
+                    font-weight: 700;
+                    font-size: 30px;
+                    margin-left: 11px;
+
+                    .count-info {
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+                }
+
+                .action-btn {
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 60px;
+                    color: white;
+                    background-color: #336913;
+                    padding: 11px 28.3px;
+                    border-radius: 30px;
+                    font-weight: 500;
+                    font-size: 15px;
+                    .support-btn {
+                        padding-right: 3px;
+                    }
+                }
+            }
+
+            .progress-bar {
+                margin-top: 17.5px;
+                background-color: #EFF7EF;
+                height: 15px;
+                width: 520px;
+                border-radius: 20px;
+                position: relative;
+
+                .progress {
+                    position: absolute;
+                    height: 15px;
+                    width: 220px;
+                    background-color: #336913;
+                    border-radius: 20px;
+                }
+            }
+
+            .mangrove-img-section {
+                display: block;
+            }
+        }
+    }
+
+    .right-column-section {
+        border-left: 1px solid #EEEEEE;
+
+        .leaderboard-info {
+            margin: 28px 0px 50px 45px;
+
+            .leaderboard-title {
+                cursor: context-menu;
+                font-size: 32px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+
+            .most-donation {
+                border: 1px solid #85BB50;
+                display: inline-block;
+                padding: 10px 30px;
+                color: #2D9444;
+                font-weight: 600;
+                font-size: 18px;
+                border-radius: 30px;
+                margin-right: 8px;
+            }
+
+            .most-recent {
+                display: inline-block;
+                border: 1px solid #DDDDDD;
+                padding: 10px 30px;
+                color: #888888;
+                font-weight: 500;
+                font-size: 18px;
+                border-radius: 30px;
+            }
+        }
+    }
+
+    .donation-entry {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 10px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #EEEEEE;
+
+        .rank {
+            background-color: #336913;
+            color: white;
+            padding: 0.75rem 0.9rem;
+            border-radius: 70px;
+            font-weight: 700;
+            margin-right: 15px;
+        }
+
+        .rank-4 {
+            background-color: #85BB50;
+        }
+
+        .rank-5 {
+            background-color: #A7CC05;
+        }
+
+        .rank-6 {
+            background-color: #A7CC05;
+        }
+
+        .donor-icon {
+            padding: 0.75rem 1rem;
+        }
+
+        .donor-details {
+            padding-left: 0.4rem;
+
+            .donor-name {
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+            .donor {
+                margin-top: -0.3rem;
+                font-size: 20px;
+                font-weight: 700;
+                width: 140px;
+            }
+        }
+
+        .donation-info {
+            color: #336913;
+            font-family: "Inter Tight", serif;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            padding-left: 3.8rem;
+
+            .donation-amount {
+                padding-left: 0.3rem;
+                font-size: 22.5px;
+                font-weight: 700;
+
+                .tree-small {
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

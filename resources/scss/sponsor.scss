@@ -1,0 +1,184 @@
+.sponsorship-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .sponsorship-header {
+        font-size: 36px;
+        font-weight: 700;
+        color: #112D63;
+        padding-top: 60px;
+    }
+
+    .sponsorship-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .individual-sponsorship,
+    .corporate-sponsorship-title {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    th {
+        background-color: #E0F6FF;
+        padding: 0.8rem;
+        font-weight: 500;
+    }
+
+    th:first-child {
+        border-radius: 10px 0 0 0;
+    }
+
+    th:last-child {
+        border-radius: 0 10px 0 0;
+    }
+
+    .sponsorship-table-1 tr:last-child td {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+<<<<<<< HEAD:resources/scss/sponsor.scss
+    .sponsorship-table-1 {
+=======
+    .table1 {
+>>>>>>> 895eeba868910fd22542eb40ef599558fe2d3edf:resources/scss/sponsors.scss
+        border: 1px solid #ABEBFF;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .sponsorship-table-1 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+        .sponsorship-table-1 th,
+        td {
+            padding: 0.8rem 1.2rem;
+        }
+
+        .membership-tier {
+            text-align: left;
+            padding-left: 30px;
+        }
+
+        .action-btn {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-right: 5px;
+            background-color: #518BBB;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 30px;
+        }
+
+        .donation-btn {
+            background-color: white;
+            color: #518BBB;
+            padding: 5px 15px;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .tier-details {
+            display: flex;
+            flex-direction: row;
+
+            .tier-name {
+                padding-left: 10px;
+                font-weight: 500;
+            }
+        }
+
+        tr:nth-child(3),
+        tr:nth-child(5),
+        tr:nth-child(7) {
+            background-color: #F8FDFF;
+        }
+    }
+
+    .divider {
+        width: 88%;
+        height: 1px;
+        background-color: #EEEEEE;
+    }
+
+    .corporate-sponsorship {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sponsorship-table-2 {
+        display: flex;
+        justify-content: center;
+        width: 950px;
+        text-align: center;
+        font-size: 14px;
+        display: flex;
+        border-collapse: collapse;
+        border: 1px solid #ABEBFF;
+        border-radius: 10px;
+        overflow: hidden;
+
+        .sponsorship-table-2 th,
+        td {
+            padding: 1rem 2rem;
+        }
+
+        tr:last-child td {
+            outline: 1px solid white;
+        }
+
+        .donation-row {
+            background-color: #518BBB;
+            padding: 0.8rem;
+            font-weight: 600;
+            font-size: 14px;
+            color: white;
+
+            .donation-btn {
+                background-color: white;
+                color: #518BBB;
+                padding: 5px 10px;
+                width: 160px;
+                height: 45px;
+                border-radius: 30px;
+            }
+        }
+
+        td:nth-child(2),
+        td:nth-child(4) {
+            display: flex;
+            justify-content: center;
+        }
+
+        td:nth-child(1) {
+            width: 300px;
+            text-align: center;
+            padding: 0 1rem;
+            white-space: nowrap;
+        }
+
+        .circle {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
